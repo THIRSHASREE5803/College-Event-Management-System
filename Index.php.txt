@@ -1,0 +1,84 @@
+<?php
+include_once("includes/header.php"); 
+include_once("includes/db_connect.php"); 
+global $SERVER_PATH;
+?>
+<div id="banner">
+<div class="left">
+<div class="anythingSlider">
+<div class="wrapper">
+<ul>
+<li><a href="#"><img src="./images/banner1.jpg" alt="" /></a></li>
+<li><a href="#"><img src="./images/banner1.jpg" alt="" /></a></li>
+<li><a href="#"><img src="./images/banner1.jpg" alt="" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<script type="text/javascript" src="./js/cont_slide.js"></script>
+<div id="content_sec">
+<div class="col1">
+<h4 class="heading colr">About College Event Management 
+System</h4>
+<div class="news">
+<ul>
+<li>
+<h6 class="last">Manage Events</h6>
+<a href="#" class="thumb"><img src="images/home1.jpg" alt="" 
+style="height:163px; width:266px;"/></a>
+<p>Ability to define Special Event of the projects like the dates, themes, 
+description of the project.</p>
+<div class="news_links">
+<a href="#" class="readmore left">Read More</a>
+</div>
+</li>
+<li class="last">
+<h6 class="last">Manage Users</h6>
+<a href="#" class="thumb"><img src="images/home2.jpg" alt="" 
+style="height:163px; width:266px;"/></a>
+<p>
+Admin who has the ability to see the users can also edit the users details if 
+required by the student/user.
+</p>
+<div class="news_links">
+<a href="#" class="readmore left">Read More</a>
+</div>
+</li>
+<li>
+<h6 class="last">Manage Event Themes</h6>
+<a href="#" class="thumb"><img src="images/home3.jpeg" alt="" 
+style="height:163px; width:266px;"/></a>
+<p>
+The admin who assigns the task are allowed to manage event themes if 
+required modification of theme is also allowed.
+</p>
+<div class="news_links">
+<a href="#" class="readmore left">Read More</a>
+</div>
+</li>
+<li class="last">
+<h6 class="last">Manage Login</h6>
+<a href="#" class="thumb"><img src="images/home4.jpg" alt="" 
+style="height:163px; width:266px;"/></a>
+<p>
+This tells the user to login as a student first to register for an event. Also 
+allows users to change password if required.
+</p>
+<div class="news_links">
+<a href="#" class="readmore left">Read More</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col2">
+<h4 class="heading colr">Features</h4>
+<?php include_once("includes/sidebar.php"); ?>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<?php include_once("includes/footer.php"); ?>
